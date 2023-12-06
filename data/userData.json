@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Sophia Ava",
+    "email": "demo11@gmail.com",
+    "statistics": {
+      "posts": 175,
+      "followers": 50,
+      "following": 30
+    },
+    "position": "Software Engineer",
+    "joiningDate": "15 Feb 2023"
+  },
+  {
+    "name": "Alexandra Joi",
+    "email": "demo@gmail.com",
+    "statistics": {
+      "posts": 172,
+      "followers": 47,
+      "following": 20
+    },
+    "position": "Web Developer",
+    "joiningDate": "12 Jan 2023"
+  },
+  {
+    "name": "Amelia Mia",
+    "email": "demo11@gmail.com",
+    "statistics": {
+      "posts": 180,
+      "followers": 90,
+      "following": 40
+    },
+    "position": "App Developer",
+    "joiningDate": "17 Mar 2023"
+  },
+  {
+    "name": "Olivia Emma",
+    "email": "demo1121@gmail.com",
+    "statistics": {
+      "posts": 1500,
+      "followers": 310,
+      "following": 10
+    },
+    "position": "App Developer",
+    "joiningDate": "17 Mar 2023"
+  },
+  {
+    "name": "Ava Sophia",
+    "email": "demo121@gmail.com",
+    "statistics": {
+      "posts": 450,
+      "followers": 782,
+      "following": 585
+    },
+    "position": "Mobile Developer",
+    "joiningDate": "17 Mar 2023"
+  },
+  {
+    "name": "Olu Sophia",
+    "email": "demo345@gmail.com",
+    "statistics": {
+      "posts": 40,
+      "followers": 78,
+      "following": 585
+    },
+    "position": "Database Developer",
+    "joiningDate": "17 Jun 2022"
+  }
+]

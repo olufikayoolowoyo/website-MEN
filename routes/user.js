@@ -1,10 +1,13 @@
 const express = require('express');
 const router = express.Router();
 
-module.exports = () => {
+module.exports = (params) => {
+  const { userService } = params;
+
   router
-    .get('/', (req, res) => {
-      res.send('Getting all Users....');
+    .get('/', async (req, res) => {
+      const userData = await userService.getList();
+      res.json(userData);
     })
     .get('/:id', (req, res) => {
       res.send(`Getting Users with Id ${req.params.id}....`);
