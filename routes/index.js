@@ -6,7 +6,7 @@ const router = express.Router();
 
 module.exports = (params) => {
   router.get('/', (req, res) => {
-    res.render('pages/index', { pageTitle: ' Website MEN' });
+    res.render('layout', { pageTitle: ' Website MEN', template: 'index' });
   });
 
   router.use('/user', userRoute(params));

@@ -18,13 +18,13 @@ app.use(express.static(path.join(__dirname, './static')));
 
 const PORT = 3000;
 
-app.set('trust proxy', 1); // needed for production use case
-app.use(
-  cookieSession({
-    name: 'user-cookie',
-    keys: ['hjksbsdf', 'adfsjhdf'],
-  })
-);
+// app.set('trust proxy', 1); // needed for production use case
+// app.use(
+//   cookieSession({
+//     name: 'user-cookie',
+//     keys: ['hjksbsdf', 'adfsjhdf'],
+//   })
+// );
 
 app.use('/', routes({ userService }));
 
