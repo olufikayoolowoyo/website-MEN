@@ -7,14 +7,13 @@ const router = express.Router();
 module.exports = (params) => {
   router.get('/', (req, res) => {
     res.render('layout', {
-      pageTitle: ' Website MEN',
       template: 'index',
       currentYear: `2023`,
     });
   });
 
   router.use('/user', userRoute(params));
-  router.use('/product', productRoute());
+  router.use('/product', productRoute(params));
 
   return router;
 };

@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "title": "Users",
+    "link": "",
+    "children": [
+      {
+        "id": 11,
+        "title": "User List",
+        "link": "user"
+      },
+      {
+        "id": 12,
+        "title": "Add User",
+        "link": "user/new"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Products",
+    "link": "",
+    "children": [
+      {
+        "id": 21,
+        "title": "Product List",
+        "link": "product"
+      },
+      {
+        "id": 22,
+        "title": "Add Product",
+        "link": "product/new"
+      }
+    ]
+  }
+]

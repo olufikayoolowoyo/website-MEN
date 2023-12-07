@@ -6,15 +6,13 @@ module.exports = (params) => {
 
   router
     .get('/', async (req, res) => {
-      // If the session doesnt exist , create it
-      //   if (!req.session.visitCount) {
-      //     req.session.visitCount = 0;
-      //   }
-      //   req.session.visitCount += 1;
-      //   console.log(`Current Visit => ${req.session.visitCount}`);
+      const userList = await userService.getList();
 
-      const userData = await userService.getList();
-      res.json(userData);
+      res.render('layout', {
+        template: 'users',
+        userList,
+        currentYear: `2023`,
+      });
     })
     .get('/:id', (req, res) => {
       res.send(`Getting Users with Id ${req.params.id}....`);
